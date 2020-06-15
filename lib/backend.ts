@@ -7,8 +7,10 @@ export class Backend extends cdk.Construct {
 
   constructor(scope: cdk.App, id: string) {
     super(scope, id);
-    // TODO: Create a reference to dynamodb!
+    // 1 TODO: Create a reference to dynamodb!
 
-    // TODO: Create a reference to your lambda function
+    // 5 TODO: Connect your lambda function to a this.handler method
+
+    // 6 TODO: Grant read / write data permissions to the table
   } 
 }
